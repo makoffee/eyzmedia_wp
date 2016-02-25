@@ -60,15 +60,10 @@ get_header();
 			{
 				if( $page_section == 'default' ){		// Default Content Page
 				?>
-					<section id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?>" 
+					<section id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?>" >
 					
 					
-					<?php if(isset($image)): ?> 
-					    style="background-image:url('<?php echo $image;?>');"	
-					<?php elseif(isset($background_color)): ?>
-                        style="background-color:('<?php echo $background_color;?>');"
-                    <?php endif; ?>
-					>
+				
 					
 						<?php if( $no_title != 1 ){ ?>
 							<div class="clearfix title-wrap">
@@ -87,10 +82,10 @@ get_header();
 				?>
 					<div id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?>full-width clearfix"
 					
-					<?php if(isset($image)): ?> 
-					    style="background-image:url('<?php echo $image;?>');"	
-					<?php elseif(isset($background_color)): ?>
-                        style="background-color:('<?php echo $background_color;?>');"
+                	<?php if($background_color != ""): ?> 
+					    style='background-color:<?php echo $background_color ?>;'		
+                    <?php elseif(isset($image)): ?> 
+                    style='background-image:url(<?php echo $image ?>);'	
                     <?php endif; ?>
 					>					
 		
