@@ -1,11 +1,11 @@
 ::selection {
   color: #fff;
-  background: ; /* Safari */
+  background: #000000 ; /* Safari */
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #06a0c6; /* Firefox */
+    background: #000000; /* Firefox */
 }
 
 .blog-content h2 a:hover, .blog-content .post-meta li a:hover{

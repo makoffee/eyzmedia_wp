@@ -722,3 +722,10 @@ background: -ms-linear-gradient(top, #000000 0%, #262626 100%);
 background: linear-gradient(to bottom, #000000 0%, #262626 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#262626', GradientType=0 );
 }
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 50vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;

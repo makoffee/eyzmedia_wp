@@ -349,6 +349,11 @@ function thm_register_meta_boxes( $meta_boxes )
 				'name'    => __( 'Background Url', 'themeum' ),
 				'id'      => "{$prefix}background_url",
 				'type'    => 'text'
+			),
+			array(
+				'name'    => __( 'Background Color', 'themeum' ),
+				'id'      => "{$prefix}bg_color",
+				'type'    => 'text'
 			)
 			
 		)

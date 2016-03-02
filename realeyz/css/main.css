@@ -1,11 +1,10 @@
 @charset "UTF-8";
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
-
 body {
 	font-family: 'cooperhewitt-book', sans-serif;
 	position: relative;
 	font-weight:lighter;
+	font-size:18px;
 	background: #fff;
 }
 
@@ -30,8 +29,14 @@ a {
 	transition: 300ms;
 }
 
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'cooperhewitt-light', sans-serif;
+h1, h2, h3 {
+	font-family: 'cooperhewitt-thin', sans-serif;
+	font-weight: normal;
+}
+
+h4, h5, h6 {
+	font-family: 'cooperhewitt-book', sans-serif;
+	font-weight: lighter;
 }
 
 .title-wrap{
@@ -485,7 +490,8 @@ margin-top: -50px;
 
 .slide-text .texts {
   color: #FFFFFF;
-  font-size: 80px;
+  font-size: 2.5em;
+  font-family: "cooperhewitt-light";
   font-weight:lighter;
   margin-top: 0;
   text-shadow: none;
@@ -523,10 +529,13 @@ margin-top: -50px;
   top: 26%;
   width: 100%;
   z-index: 11;
+  background:black;
+  opacity: .5;
 }
 
 #text-carousel .carousel-caption > div{
     vertical-align: middle;
+    opacity:1;
 }
 
 #text-carousel .carousel-inner h2 {
@@ -536,6 +545,7 @@ margin-top: -50px;
   margin-bottom: 40px;
   text-transform: uppercase;
   text-shadow:none;
+  opacity:1;
 }
 
 #text-carousel .carousel-inner p {
@@ -545,6 +555,7 @@ margin-top: -50px;
   margin-bottom: 59px;
   margin-top: 0;
   text-shadow:none;
+  opacity:1;
 }
 
 

@@ -13,24 +13,7 @@ if (isset($themeum))
 {
 	?>
 
-	body{
-		font-family: "cooperhewitt-book";
-		font-weight: <?php echo $themeum['body_font_style']['style']; ?>;
-		font-size: <?php echo $themeum['body_font_style']['size']; ?>;
-		color: <?php echo $themeum['body_font_style']['color']; ?>;
-	} /* body typography */
 
-	h1,h2,h3,h4,h5,h6,.plan-name span{
-		font-family: "cooperhewitt-thin";
-		font-weight: lighter;
-		color: <?php echo $themeum['heading_font_style']['color']; ?>;
-	}
-
-	.plan-name span,.plan-price span, .btn-search, .btn-plan, input.btn.btn-primary{
-		font-family: "Roboto";
-		text-transform: uppercase;
-		font-weight: lighter;
-	}
 
 	<?php
 	if ($themeum['custom_wh']) {
@@ -67,7 +50,7 @@ if (isset($themeum))
 	?>
 
 	#header .navbar-nav.navbar-right >li a{
-		font-family: "Roboto";
+		font-family: "cooperhewitt-book";
 		font-weight: lighter;
 		font-size: <?php echo $themeum['menu_font_style']['size']; ?>;
 	}
@@ -91,9 +74,6 @@ if (isset($themeum))
 	}
 	?>
 
-	#footer{
-		background-color:<?php echo $themeum['footer_bg']; ?>;
-	} /* end footer style */
 	<?php
 	/* custom css */
 	if ( $themeum['custom_css'] = '')
