@@ -711,7 +711,7 @@ a img.aligncenter {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#ffffff', GradientType=0 );}
     
 #filmcovers {
-    color: #ffffff important!;
+    color: #ffffff !important;
 background: #000000;
 background: -moz-linear-gradient(top, #000000 0%, #262626 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, #000000), color-stop(100%, #262626));
@@ -728,3 +728,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
   display: flex;
   align-items: center;
+}
+
+.white {
+color:#FFFFFF !important;
+}

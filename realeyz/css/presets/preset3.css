@@ -17,14 +17,6 @@ a,a:hover,
   color:#d63d34;
 }
 
-.btn-transparent:after{
-  background: #d63d34;
-}
-
-.btn-transparent{
-  -webkit-box-shadow: inset 0 0 0 1px #d63d34;
-  box-shadow: inset 0 0 0 1px #d63d34;
-}
 
 #header .navbar-inverse .navbar-nav  .active  > a,  
 #header .navbar-inverse .navbar-nav  .active  > a:focus, 

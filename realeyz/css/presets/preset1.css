@@ -17,15 +17,6 @@ a,a:hover,
   color:#06a0c6;
 }
 
-.btn-transparent:after{
-  background: #06a0c6;
-}
-
-.btn-transparent{
-  -webkit-box-shadow: inset 0 0 0 1px #06a0c6;
-  box-shadow: inset 0 0 0 1px #06a0c6;
-}
-
 #header .navbar-inverse .navbar-nav  .active  > a,  
 #header .navbar-inverse .navbar-nav  .active  > a:focus, 
 #header .navbar-nav.navbar-right li > a:hover,

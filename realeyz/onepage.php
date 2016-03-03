@@ -61,13 +61,9 @@ get_header();
 				if( $page_section == 'default' ){		// Default Content Page
 				?>
 					<section id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?>" >
-					
-					
-				
-					
 						<?php if( $no_title != 1 ){ ?>
 							<div class="clearfix title-wrap">
-								<h2 class="title" <?php if(isset($image) or isset($background_image)): ?> style="color:#EEEEEE;" <?php endif; ?> >
+                                <h2 class="title <?php if($background_color != ""): ?>white<?php elseif(isset($image)): ?>white<?php endif; ?>">	
                     <?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
 							</div>
 						<?php }?>
@@ -80,21 +76,14 @@ get_header();
 				elseif( $page_section == 'full' )
 				{
 				?>
-					<div id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?>full-width clearfix"
-					
-                	<?php if($background_color != ""): ?> 
-					    style='background-color:<?php echo $background_color ?>;'		
-                    <?php elseif(isset($image)): ?> 
-                    style='background-image:url(<?php echo $image ?>);'	
-                    <?php endif; ?>
-					>					
-		
+					<div id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?>full-width clearfix"<?php if($background_color != ""): ?> style='background-color:<?php echo $background_color ?>;'<?php elseif($image !=""): ?> style='background-image:url(<?php echo $image ?>);'<?php endif; ?>>
 						<?php if( $no_title != 1 ){ ?>
 							<div class="clearfix title-wrap">
-								<h2 class="title"><?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
+							   <h2 class="title <?php if($background_color != ""): ?>white<?php elseif($image != ""): ?>white<?php endif; ?>">	
+								<?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
 							</div>
 						<?php }?>
-						<div class="page-fullwdth-content">	
+						<div class="page-fullwdth-content <?php if($background_color != ""): ?>white<?php elseif($image != ""): ?>white<?php endif; ?>">	
 								<?php echo do_shortcode(get_the_content()); ?>
 						</div> <!-- .page-fullwdth-content -->
 					</div> <!-- .page-content -->
@@ -107,7 +96,7 @@ get_header();
 
 					$parallaxId[] = $post->post_name;
 				?>
-					<section id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?> parallax parallax-section" style="background-image:url('<?php if(isset($image)) echo $image;?>');">
+					<section id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?> parallax parallax-section" style="background-image:url('<?php if($image != "") echo $image;?>');">
 						<?php if( $no_title != 1 ) { ?>
 							<div class="clearfix title-wrap">
 								<h2 class="title"><?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
