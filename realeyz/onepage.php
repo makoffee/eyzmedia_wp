@@ -67,7 +67,7 @@ get_header();
                     <?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
 							</div>
 						<?php }?>
-						<div class="container page-content">
+						<div class="container page-content" <?php if($background_color != ""): ?>white<?php elseif($image != ""): ?>white<?php endif; ?>">
 							<?php echo do_shortcode(get_the_content()); ?>
 						</div> <!-- .container -->
 					</section>
