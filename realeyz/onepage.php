@@ -63,7 +63,7 @@ get_header();
 					<section id="<?php echo $post->post_name; ?>" class="<?php echo $pad_class; ?>" >
 						<?php if( $no_title != 1 ){ ?>
 							<div class="clearfix title-wrap">
-                                <h2 class="title <?php if($background_color != ""): ?>white<?php elseif(isset($image)): ?>white<?php endif; ?>">	
+                                <h2 class="title <?php if($background_color != ""): ?>white<?php elseif($image != ""): ?>white<?php endif; ?>">	
                     <?php if($page_title != '') { echo $page_title; }else{ echo get_the_title(); } ?> </h2>
 							</div>
 						<?php }?>
