@@ -62,12 +62,11 @@ h2.title {
 }
 
 .btn-transparent{
-
+	background: rgba(0, 0, 0, 0);
 }
 
 .btn-transparent:hover{
-	color: #fff;
-	background: rgba(0, 0, 0, 0);
+	background: #FFFFFF;
 }
 
 
