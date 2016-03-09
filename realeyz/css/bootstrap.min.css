@@ -478,7 +478,7 @@ h6,
 }
 
 p {
-    margin: 0 0 10px
+    margin: 0 0 40px
 }
 
 .lead {
@@ -2242,8 +2242,8 @@ textarea.input-lg {
     vertical-align: middle;
     cursor: pointer;
     background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+    border: 2px solid transparent;
+    border-radius: 12px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
@@ -2285,7 +2285,7 @@ fieldset[disabled] .btn {
 .btn-default {
     color: #333;
     background-color: #fff;
-    border-color: #ccc
+    border-color: #fff
 }
 
 .btn-default:hover,
@@ -2600,7 +2600,7 @@ fieldset[disabled] .btn-link:focus {
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.33;
-    border-radius: 6px
+    border-radius: 26px;
 }
 
 .btn-sm {
