@@ -41,16 +41,15 @@
                 
                    <p><?php if(isset($themeum['footer_text_1'])) echo $themeum['footer_text_1']; ?></p>
                 </div>
-                <div class="col-sm-6">
-                 <div id="footer-right pull-righ">
-                <?php
+                <div class="col-sm-6 pull-right">
+                <div style="clear:both;">
+                <?php if(isset($themeum['footer_text_2'])) echo $themeum['footer_text_2']; ?>
+                </div>
+                <p><?php
                 if(is_active_sidebar('footer-right')){
                 dynamic_sidebar('footer-right');
                 }
-                ?>
-                </div>
-                
-                    <p class="pull-right"><?php if(isset($themeum['footer_text_2'])) echo $themeum['footer_text_2']; ?></p>
+                ?></p>
                 </div>
             </div>
         </div>

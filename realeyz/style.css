@@ -17,33 +17,11 @@ Text Domain: mattcoffee.com
 @import url('css/animate.css');
 @import url('css/main.css');
 
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
-
-@font-face {
-    font-family: 'cooperhewitt-book';
-    src: url('fonts/CooperHewitt-Book.eot') format('embedded-opentype'), url('fonts/CooperHewitt-Book.svg') format('svg'), url('fonts/CooperHewitt-Book.woff') format('woff');
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'cooperhewitt-light';
-    src: url('fonts/CooperHewitt-Light.eot') format('embedded-opentype'), url('fonts/CooperHewitt-Light.woff') format('woff'), url('fonts/CooperHewitt-Light.svg') format('svg');
-    font-weight: normal;
-    font-style: normal
-}
-
-@font-face {
-    font-family: 'cooperhewitt-thin';
-    src: url('fonts/CooperHewitt-Thin.eot') format('embedded-opentype'), url('fonts/CooperHewitt-Thin.svg') format('svg'), url('fonts/CooperHewitt-Thin.woff') format('woff');
-    font-weight: normal;
-    font-style: normal
-}
 
 
-#main{
-	margin: 50px auto;
+
+#main {
+    margin: 140px auto;
 }
 
 .blog #content article.post,
@@ -667,7 +645,7 @@ a img.aligncenter {
 /* One Page Style */
 
 .page-wrapper{
-	padding: 40px 0;
+	padding: 40px 0px 80px 0px;
 }
 
 .display-none{
@@ -720,7 +698,7 @@ background: -o-linear-gradient(top, #000000 0%, #262626 100%);
 background: -ms-linear-gradient(top, #000000 0%, #262626 100%);
 background: linear-gradient(to bottom, #000000 0%, #262626 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#262626', GradientType=0 );
-}
+}   
 
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -730,6 +708,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
   align-items: center;
 }
 
+.dark {
+color:#333333 !important;
+}
 .white {
 color:#FFFFFF !important;
+}
+
+.zoom-social-icons-widget {
+    float:right;
+    padding-bottom:20px;
 }

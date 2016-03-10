@@ -1,3 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+@font-face {
+    font-family: 'cooperhewitt-book';
+    src: url('fonts/CooperHewitt-Book.eot') format('embedded-opentype'), url('fonts/CooperHewitt-Book.svg') format('svg'), url('fonts/CooperHewitt-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'cooperhewitt-light';
+    src: url('fonts/CooperHewitt-Light.eot') format('embedded-opentype'), url('fonts/CooperHewitt-Light.woff') format('woff'), url('fonts/CooperHewitt-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'cooperhewitt-thin';
+    src: url('fonts/CooperHewitt-Thin.eot') format('embedded-opentype'), url('fonts/CooperHewitt-Thin.svg') format('svg'), url('fonts/CooperHewitt-Thin.woff') format('woff');
+    font-weight: normal;
+    font-style: normal
+}
+
 ::selection {
   color: #fff;
   background: #000000 ; /* Safari */

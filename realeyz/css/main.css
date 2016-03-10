@@ -67,6 +67,7 @@ h2.title {
 
 .btn-transparent:hover{
 	background: #FFFFFF;
+	border-color: #FFFFFF;
 }
 
 
@@ -1618,8 +1619,13 @@ background: -o-linear-gradient(top, #000000 0%, #262626 100%);
 background: -ms-linear-gradient(top, #000000 0%, #262626 100%);
 background: linear-gradient(to bottom, #000000 0%, #262626 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#262626', GradientType=0 );
+  color: #CCCCCC;
+  padding: 40px 0px 80px 0px;
+  font-size: .8em;
+}
+#footer .subtext {
   color: #666666;
-  padding: 20px 0
+  font-size: .85em;
 }
 
 #footer p {
