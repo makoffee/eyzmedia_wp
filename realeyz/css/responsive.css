@@ -9,12 +9,32 @@
   #header .navbar-nav.navbar-right >li {
     padding: 0 15px;
   }
+h1 {
+    font-size:3.2em !important;
 }
 
+}
 
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
-    #header .navbar-nav.navbar-right li{
+
+h1 {
+    font-size:2em !important;
+}
+
+h2 {
+    font-size:1.8em !important;
+}
+
+h3 {
+    font-size:1.4em !important;
+}
+
+h4 {
+    font-size:1.2em !important;
+}
+
+#header .navbar-nav.navbar-right li{
     padding: 0 10px;
   }
 
@@ -85,6 +105,26 @@
 /* mobile landscape */
 
 @media (min-width: 481px) and (max-width: 767px) {
+h1 {
+    font-size:2em !important;
+}
+
+h1 {
+    font-size:2em !important;
+}
+
+h2 {
+    font-size:1.8em !important;
+}
+
+h3 {
+    font-size:1.4em !important;
+}
+
+h4 {
+    font-size:1.2em !important;
+}
+
   .single-blog{
       max-width: 50%;
       float: left;
@@ -112,6 +152,29 @@
 
 /* xs */
 @media (max-width: 767px) {
+h1 {
+    font-size:2em !important;
+}
+
+h1 {
+    font-size:2em !important;
+}
+
+h2 {
+    font-size:1.8em !important;
+}
+
+h3 {
+    font-size:1.4em !important;
+}
+
+h4 {
+    font-size:1.2em !important;
+}
+
+p {
+    font-size:.8em !important;
+}
 
   .navbar-inverse .navbar-collapse{
     padding: 0;
